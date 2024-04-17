@@ -1,0 +1,13 @@
+prefix=/Users/emrecanduran/Desktop/end-to-end-ML-flask/end-to-end-ML-project-flask/realestate
+exec_prefix=/Users/emrecanduran/Desktop/end-to-end-ML-flask/end-to-end-ML-project-flask/realestate
+libdir=/Users/emrecanduran/Desktop/end-to-end-ML-flask/end-to-end-ML-project-flask/realestate/lib
+sharedlibdir=/Users/emrecanduran/Desktop/end-to-end-ML-flask/end-to-end-ML-project-flask/realestate/lib
+includedir=/Users/emrecanduran/Desktop/end-to-end-ML-flask/end-to-end-ML-project-flask/realestate/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

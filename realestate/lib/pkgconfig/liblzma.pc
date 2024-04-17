@@ -1,0 +1,20 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/emrecanduran/Desktop/end-to-end-ML-flask/end-to-end-ML-project-flask/realestate
+exec_prefix=/Users/emrecanduran/Desktop/end-to-end-ML-flask/end-to-end-ML-project-flask/realestate
+libdir=/Users/emrecanduran/Desktop/end-to-end-ML-flask/end-to-end-ML-project-flask/realestate/lib
+includedir=/Users/emrecanduran/Desktop/end-to-end-ML-flask/end-to-end-ML-project-flask/realestate/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://xz.tukaani.org/xz-utils/
+Version: 5.4.6
+Cflags: -I${includedir}
+Cflags.private: -DLZMA_API_STATIC
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
