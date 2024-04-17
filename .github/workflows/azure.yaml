@@ -13,15 +13,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python version
-        uses: actions/setup-python@v2  # Updated to use Node.js 20
+      - name: Set up Python
+        uses: actions/setup-python@v2
         with:
-          python-version: '3.11'
-          node-version: '20'  # Specify Node.js version
+          python-version: '3.11'  
 
       - name: Create and start virtual environment
         run: |
-          python -m realestate realestate
+          python -m venv realestate
           source realestate/bin/activate
       
       - name: Install dependencies
