@@ -10,7 +10,5 @@
 Create a new environment 
 
 ''' 
-
 conda create -p realestate python==3.11.5 -y
-
 '''
