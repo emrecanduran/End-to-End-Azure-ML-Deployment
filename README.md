@@ -24,7 +24,7 @@ RealEstate.csv dataset (414)
 - `X4 number of convenience stores`: Number of convenience stores nearby 
 - `X5 latitude`: Latitude of the location of the house
 - `X6 longitude`: Longitude of the location of the house
-- `Y house price of unit area`: Price of the house per unit area (price per square foot or square meter) (target)
+- `Y house price of unit area`: Price of the house per unit area (price per square foot or square meter)(target)
 
 ## Modeling & Evaluation & Deployment via Azure 
 
