@@ -30,7 +30,7 @@ RealEstate.csv dataset (414)
 
 The aim of this project is to deploy a machine learning model using Azure cloud services. For demo purposes, a clean dataset was selected, and only the Random Forest Regressor algorithm was trained. Hyperparameters for the model were optimized using Optuna. 
 
-Learning curve was plotted to conduct a Bias-Variance Analysis. Additionally, the feature importances were visualized to understand the relative importance of each feature in the model's predictions. The performance of the model was evaluated by comparing training and test results based on metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), R-squared (R^2), Adjusted R-squared, Mean Absolute Percentage Error (MAPE), and Max Error.
+Learning curve was plotted to conduct a Bias-Variance Analysis. Additionally, the feature importances were visualized to understand the relative importance of each feature in the model's predictions. The performance of the model was evaluated by comparing training and test results based on metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), R-squared (R^2), Adjusted R-squared, Mean Absolute Percentage Error (MAPE), and Max Error. [training-notebook](https://github.com/emrecanduran/End-to-End-Azure-ML-Deployment/blob/341fabc39cb6ac2d66afc0571ead278192223bc7/notebooks/training.ipynb)
 
 Furthermore, a single decision tree from the forest was visualized to provide insight into the model's decision-making process. Residuals and prediction error plots were generated to assess the model's performance and identify areas for improvement.
 
