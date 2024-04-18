@@ -1,4 +1,4 @@
-# end-to-end-ML-project-flask
+# End-to-End-Azure-ML-Deployment
 
 ### Tools Requirements
 
@@ -10,6 +10,7 @@
 Create a new environment 
 
 ''' 
+
 conda create -p realestate python==3.11.5 -y
 
 '''
