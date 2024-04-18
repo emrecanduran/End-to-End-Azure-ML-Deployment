@@ -35,3 +35,12 @@ Learning curve was plotted to conduct a Bias-Variance Analysis. Additionally, th
 Furthermore, a single decision tree from the forest was visualized to provide insight into the model's decision-making process. Residuals and prediction error plots were generated to assess the model's performance and identify areas for improvement.
 
 Once the model was trained and evaluated, it was saved as a pickle file and utilized in the deployment process. An application was created using Flask, and Postman was used to obtain predictions via JSON data. The correctness of the predictions was verified in the created app.py file. Finally, the model was deployed via a web application hosted on Azure cloud services, providing users with access to real-time predictions.
+
+### Test API via Postman
+
+![Test API via Postman](https://github.com/emrecanduran/End-to-End-Azure-ML-Deployment/blob/d54c8322f1acbb185d2e331d14437190f2c05c23/screenshots/postman.png)
+
+### Test API via app.py
+
+![Test API via app.py](https://github.com/emrecanduran/End-to-End-Azure-ML-Deployment/blob/94fb0c750ded93cc1002c4728408012e4d3b15d2/screenshots/app.png)
+
