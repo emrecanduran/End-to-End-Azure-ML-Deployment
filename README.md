@@ -25,3 +25,13 @@ RealEstate.csv dataset (414)
 - `X5 latitude`: Latitude of the location of the house
 - `X6 longitude`: Longitude of the location of the house
 - `Y house price of unit area`: Price of the house per unit area (price per square foot or square meter)(target)
+
+## Modeling & Evaluation & Deployment via Azure 
+
+The aim of this project is to deploy a machine learning model using Azure cloud services. For demo purposes, a clean dataset was selected, and only the Random Forest Regressor algorithm was trained. Hyperparameters for the model were optimized using Optuna. 
+
+Learning curve was plotted to conduct a Bias-Variance Analysis. Additionally, the feature importances were visualized to understand the relative importance of each feature in the model's predictions. The performance of the model was evaluated by comparing training and test results based on metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), R-squared (R^2), Adjusted R-squared, Mean Absolute Percentage Error (MAPE), and Max Error.
+
+Furthermore, a single decision tree from the forest was visualized to provide insight into the model's decision-making process. Residuals and prediction error plots were generated to assess the model's performance and identify areas for improvement.
+
+Once the model was trained and evaluated, it was saved as a pickle file and utilized in the deployment process. An application was created using Flask, and Postman was used to obtain predictions via JSON data. The correctness of the predictions was verified in the created app.py file. Finally, the model was deployed via a web application hosted on Azure cloud services, providing users with access to real-time predictions.
