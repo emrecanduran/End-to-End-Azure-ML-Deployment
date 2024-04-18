@@ -19,8 +19,6 @@ The dataset used for this project contains the following variables:
 
 RealEstate.csv dataset (414)
 
-https://www.kaggle.com/datasets/susant4learning/holiday-package-purchase-prediction
-
 - `X2 house age`: Age of the house in years 
 - `X3 distance to the nearest MRT station`: Distance from the house to the nearest Mass Rapid Transit (MRT) station, in meters. 
 - `X4 number of convenience stores`: Number of convenience stores nearby 
