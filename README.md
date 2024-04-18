@@ -40,3 +40,7 @@ Once the model was trained and evaluated, it was saved as a pickle file and util
 
 ![Test API via Postman](https://github.com/emrecanduran/End-to-End-Azure-ML-Deployment/blob/d54c8322f1acbb185d2e331d14437190f2c05c23/screenshots/postman.png)
 
+### Test API via app.py
+
+![Test API via app.py](https://github.com/emrecanduran/End-to-End-Azure-ML-Deployment/blob/94fb0c750ded93cc1002c4728408012e4d3b15d2/screenshots/app.png)
+
